@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	calculator </title>
+	<link rel="stylesheet" href="cal_cs.css">
+</head>
+<body>
+ <header> 
+  <h1> THIS IS MY FIRST CALCULATOR</h1>
+ </header> 
+ <div class="calculator">
+ 	<form name="form">
+     <input type="text" id="demo">
+  	</form>	
+    <table>
+        <tr>
+         <td><input type='button' class="button" value="0" onclick="show('0')"></td>
+         <td></td>
+         <td></td>
+        <td><input type='button' class="button" value="C" onclick="clear1()"></td> 	
+       </tr>
+      <tr>
+       <td><input type='button' class="button" value="1" onclick="show('1')"></td> 
+      <td><input type='button' class="button" value="2" onclick="show('2')"></td> 
+       <td><input type='button' class="button" value="3" onclick="show('3')"></td> 
+       <td><input type='button' class="button" value="=" onclick="solve()"></td> 
+
+       </tr>
+       <tr>
+      <td><input type='button' class="button" value="4" onclick="show('4')"></td> 
+      <td><input type='button' class="button" value="5" onclick="show('5')"></td> 
+       <td><input type='button' class="button" value="6" onclick="show('6')"></td> 
+       <td><input type='button' class="button" value="/" onclick="show('/')"></td> 
+       </tr>
+       <tr>
+       <td><input type='button' class="button" value="7" onclick="show('4')"></td> 
+      <td><input type='button'  class="button"value="8" onclick="show('5')"></td> 
+       <td><input type='button' class="button" value="9" onclick="show('6')"></td> 
+       <td><input type='button' class="button" value="." onclick="show('.')"></td> 
+       </tr>
+       <tr>
+       <td><input type='button' class="button" value="+" onclick="show('+')"></td> 
+      <td><input type='button'  class="button"value="-" onclick="show('-')"></td> 
+       <td><input type='button' class="button" value="x" onclick="show('x')"></td> 
+       <td><input type='button' class="button" value="%" onclick="show('%')"></td> 
+       </tr>
+      </table> 
+    </div>   
+
+<script type="text/javascript" src="first_cal.js"></script>                              
+</body>
+</html>
